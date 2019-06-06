@@ -1,9 +1,13 @@
 {
-  "name": "muun",
+  "name": "example-nodejs-project",
   "version": "0.0.1",
   "dependencies": {
-    "@abai/proxy": "^5.0.0",
-    "grumpy": "^0.1.3"
+    "@abai/proxy": "^1.0.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-enforces-ssl": "^1.1.0",
+    "helmet": "^3.18.0"
   },
   "scripts": {
     "start": "node index.js"

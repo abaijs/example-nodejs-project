@@ -2,7 +2,7 @@
   "name": "example-nodejs-project",
   "version": "0.0.1",
   "dependencies": {
-    "@abai/proxy": "^1.0.1",
+    "@abai/proxy": "^5.0.0",
     "compression": "^1.7.4",
     "cors": "^2.8.5",
     "express": "^4.16.4",

@@ -2,7 +2,7 @@ const http = require('http');
 const Unblocker = require('@abai/proxy');
 const package = require('./package.json');
 
-const unblocker = Unblocker({});
+const unblocker = Unblocker({ prefix: '/user/72A38a09Hd5/git/' });
 
 http
   .createServer((req, res) => {
